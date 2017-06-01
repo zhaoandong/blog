@@ -29,7 +29,7 @@
 
 我找了个 tmall.com下需要登录才能进去的页面 mybrand.tmall.com验证，发现并没有预想中的闪屏，下面我们接着抓包。
 
-![image](http://ofyfg9y7t.bkt.clouddn.com/WechatIMG6.jpeg)
+![image](http://ofyfg9y7t.bkt.clouddn.com/WechatIMG7.jpeg)
 
 我们来分析下数据包，在我们输入 mybrand.tmall.com的时候，做了个302跳转到 taobao.com下。接着带了参数回 pass.tmall.com 中，从字面上看，参数都是cookie的值，最后跳到 mybrand.tmall.com。
 
